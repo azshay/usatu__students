@@ -1,0 +1,16 @@
+.buttons {
+     display: flex;
+     justify-content: space-between;
+}
+
+.button {
+     margin-top: 20px;
+     border: none;
+     background: #687fff;
+     color: rgb(251, 255, 128);
+     padding: 10px 30px;
+     font-size: 16px;
+     font-weight: bold;
+     border-radius: 10px;
+     cursor: pointer;
+}

@@ -1,0 +1,18 @@
+* {
+     font-family: sans-serif;
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+}
+
+.container {
+     padding-left: calc(50% - 470px);
+     padding-right: calc(50% - 470px);
+}
+
+@media (max-width: 955px) {
+     .container {
+          padding-left: 4px;
+          padding-right: 4px;
+     }
+}

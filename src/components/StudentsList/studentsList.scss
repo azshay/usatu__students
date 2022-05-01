@@ -1,0 +1,39 @@
+.students {
+     &__listHeader {
+          margin: 20px 0;
+          height: 100px;
+     }
+
+     &__wrapper {
+          display: grid;
+          grid-template: 100% / 30% 70%;
+     }
+
+     &__numberHeader {
+          background: #687fff;
+          padding: 10px;
+          border-radius: 10px 0 0;
+          border: 1px solid #000000;
+          text-align: center;
+          color: rgb(251, 255, 128);
+     }
+
+     &__fullNameHeader {
+          background: #687fff;
+          padding: 10px;
+          border-radius: 0 10px 0 0;
+          border: 1px solid #000000;
+          text-align: center;
+          color: rgb(251, 255, 128);
+     }
+}
+
+.student {
+     &__number,
+     &__fullName {
+          border: 1px solid #000000;
+          padding: 10px;
+          border-top: none;
+          text-align: center;
+     }
+}
